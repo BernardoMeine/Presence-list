@@ -46,11 +46,11 @@ function Home() {
       </header>
       <input
         type="text"
-        placeholder="Digite o nome..."
+        placeholder="Type student name..."
         onChange={(event) => setStudentName(event.target.value)}
       />
       <button type="button" onClick={handleAddStudent}>
-        Adicionar
+        Add
       </button>
 
       {students.map((student) => (
